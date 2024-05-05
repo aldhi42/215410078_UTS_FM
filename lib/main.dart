@@ -5,6 +5,7 @@ void main() {
   runApp(const MyApp());
 }
 
+//class ini class utama yang digunakan untuk mengatur rute class mana yang akan dijalankan dulu
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//class ini digunakan pada awal tampilan selamat datang saat alikasi dijalankan 
 class Welcome extends StatelessWidget {
   const Welcome({super.key});
 
